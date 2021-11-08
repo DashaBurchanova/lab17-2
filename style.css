@@ -1,0 +1,121 @@
+body {
+    background: #d9a7c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'oswald';
+    color: aliceblue;
+    font-size: 28px;
+    
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.logo {
+    font-size: 100px;
+    letter-spacing: 10px;
+    font-weight: 600;
+    padding-left: 140px;
+    width: 400px;
+    padding-top: 300px;
+}
+
+.info {
+    width: 350px;
+    text-align: center;
+    background-color: #fff;
+    color: black;
+    padding: 15px 0;
+    margin: 50px auto;
+}
+
+.block1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+}
+
+.text1 {
+    width: 600px;
+    height: 250px;
+    background-color: #fff;
+    color: black;
+    padding: 20px 15px;
+    margin-top: 40px;
+
+}
+
+.ph1 {
+    padding-left: 50px;
+}
+
+.block2 {
+      display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+}
+
+.text2 {
+       width: 600px;
+    height: 200px;
+    background-color: #fff;
+    color: black;
+    padding: 20px 15px;
+    margin-top: 70px;
+    
+}
+
+.ph2 {
+    padding-right: 50px;
+}
+
+.block3 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.polaroid a {
+  background: #ffffff;
+  display: inline-block;
+  margin: 55px 75px 30px;
+  padding: 15px 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+  -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+  -webkit-transition: all .20s linear;
+  -moz-transition: all .20s linear;
+  transition: all .20s linear;
+  z-index: 0;
+  position: relative;
+}
+
+.polaroid a:after {
+  color: #333;
+  font-size: 25px;
+  content: attr(title);
+  position: relative;
+  top: 15px;
+}
+
+.polaroid img {
+  display: block;
+  width: 250px;
+}
+
+.polaroid a:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  transform: scale(1.2);
+  z-index: 10;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+  -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+}
